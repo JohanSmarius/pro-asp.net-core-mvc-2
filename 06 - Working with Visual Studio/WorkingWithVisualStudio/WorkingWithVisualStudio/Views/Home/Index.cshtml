@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width" />
     <title>Working with Visual Studio</title>
     <link rel="stylesheet" href="css/bundle.min.css" />
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
     <script src="js/bundle.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
-    <h3>Products</h3>
-    <p>Request Time: @DateTime.Now.ToString("HH:mm:ss")</p>
+<h3>Products</h3>
+    <div class="alert alert-info" role="alert">Request Time: @DateTime.Now.ToString("HH:mm:ss")</div>
+
     <table>
         <thead>
             <tr><td>Name</td><td>Price</td></tr>

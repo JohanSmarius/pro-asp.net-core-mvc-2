@@ -11,6 +11,7 @@
     "inputFiles": [
       "wwwroot/js/third.js",
       "wwwroot/js/fourth.js"
+
     ]
   }
 ]
